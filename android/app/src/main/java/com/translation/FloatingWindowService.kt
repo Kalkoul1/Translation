@@ -1,4 +1,3 @@
-
 package com.translation
 
 import android.app.Service
