@@ -1,7 +1,31 @@
-"android": {
-  "permissions": [
-    "SYSTEM_ALERT_WINDOW",
-    "android.permission.FOREGROUND_SERVICE",
-    "android.permission.BIND_ACCESSIBILITY_SERVICE"
-  ]
+{
+  "expo": {
+    "name": "Translation",
+    "slug": "translation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "permissions": [
+        "SYSTEM_ALERT_WINDOW",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.BIND_ACCESSIBILITY_SERVICE"
+      ],
+      "package": "com.kalkoul.translation"
+    },
+    "extra": {
+      "eas": {
+        // اترك هذا فارغًا الآن — لا تضف projectId
+      }
+    }
+  }
 }
