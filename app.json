@@ -1,7 +1,7 @@
-{
-  "expo": {
-    "name": "Translation",
-    "slug": "Translation",
-    "version": "1.0.0"
-  }
+"android": {
+  "permissions": [
+    "SYSTEM_ALERT_WINDOW",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.BIND_ACCESSIBILITY_SERVICE"
+  ]
 }
